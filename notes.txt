@@ -1,0 +1,3 @@
+Files that has been deleted from local , we can get back those from remote repo
+
+Ans-  git checkout HEAD .
