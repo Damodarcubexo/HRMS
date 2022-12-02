@@ -1,11 +1,10 @@
 from django.urls import path, include
-from management.views import hr_signup, manager_signup
+from management.views import signup, home_page,login_request
 
 app_name = 'management'
 
 urlpatterns = [
-
-    path('signup/hr/', hr_signup, name = 'hr_signup'),
-    path('signup/manager/', manager_signup, name = 'manager_signup')
-
+    path('', home_page, name = 'home_page'),
+    path('login/', login_request, name = 'login'),
+    path('signup/', signup, name = 'signup')
 ]

@@ -1,6 +1,5 @@
 from django.contrib import admin
 
-from management.models import Hr, Manager
+from management.models import User
 
-admin.site.register(Hr)
-admin.site.register(Manager)
+admin.site.register(User)
