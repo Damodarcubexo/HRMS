@@ -1,3 +1,33 @@
-Files that has been deleted from local , we can get back those from remote repo
+1 )-Files that has been deleted from local , we can get back those from remote repo
 
 Ans-  git checkout HEAD .
+
+2)- Differnce between parameter and arguments .
+ Para- The parameters are the variables that we can define in the function declaration
+ arg- The arguments are the variables given to the function for execution
+  
+  def fun(a,b) a and b are parameter
+  fun(1,2) , 1 and 2 are arguments
+
+3)-Scope: A variable scope specifies the region where we can access a variable. 
+
+4)-GLOBAL KEYBOARD
+ the global keyword allows us to modify the variable outside of the current scope.
+
+It is used to create a global variable and make changes to the variable in a local context.
+
+5)- What is blockchain?
+Blockchain is an immutable, distributed, decentralized; peer-to-peer ledger 
+replicated across multiple nodes connected in a network, making it possible to record
+data about any event or transaction as it happens. It consists of blocks in a chain 
+used to record as digital assets using a secure algorithm.
+
+6)- What is YAML ?
+YAML is a human-readable data-serialization language. It is commonly used for
+configuration files and in applications where data is being stored or transmitted.
+YAML targets many of the same communications applications as Extensible Markup 
+Language (XML) but has a minimal syntax which intentionally differs from SGML
+(Standard Generalized Markup Language) .
+It uses both Python-style indentation to indicate nesting, and a more compact 
+format that uses [...] for lists and {...} for maps[1] thus JSON files are valid
+YAML.

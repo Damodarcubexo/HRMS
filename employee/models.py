@@ -29,7 +29,7 @@ class AdditionalDetail(models.Model):
     
     def __str__(self):
         return self.user
-
+    
 
 
 class Employee(models.Model):
