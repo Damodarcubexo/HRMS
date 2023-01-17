@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    #local and third party apps
     'employee',
     'management',
     'rest_framework_simplejwt.token_blacklist',

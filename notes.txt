@@ -31,3 +31,14 @@ Language (XML) but has a minimal syntax which intentionally differs from SGML
 It uses both Python-style indentation to indicate nesting, and a more compact 
 format that uses [...] for lists and {...} for maps[1] thus JSON files are valid
 YAML.
+
+7)Differnce between reverse and reverse_lazy ?
+difference:
+reverse() use in funcation & reverse_lazy() use in class.
+reverse() use in string & reverse_lazy() use in object
+
+8)What is difference between put and PATCH in rest?
+The main difference between PUT and PATCH in REST API is that PUT handles updates by replacing the entire entity, while PATCH only updates the fields that you give it. If you use the PUT method, the entire entity will get updated. In most REST APIs, this means it will overwrite any missing fields to null.
+
+9) - Converting django model data to csv:
+  writer.writerow([getattr(obj, field, None) for field in field_names])
